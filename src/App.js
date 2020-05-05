@@ -8,6 +8,9 @@ import SingleProduct from './components/SingleProduct';
 import shop from './components/shop';
 import blog from './components/blog';
 import blogsingle from './components/blogsingle';
+import privacyPolicy from './components/privacyPolicy';
+import termCondition from './components/termCondition';
+
 
 function App() {
   return (
@@ -19,6 +22,8 @@ function App() {
         <Route path="/shop" component={shop} />
         <Route path="/blog" component={blog} />
         <Route path="/blogsingle" component={blogsingle} />
+        <Route path="/privacypolicy" component={privacyPolicy} />
+        <Route path="/termcondition" component={termCondition} />
      </Switch>
     </div>
   </Router>

@@ -44,8 +44,8 @@ render() {
                 <div className="col-md-5 col-sm-6  clearfix">
                     <nav className="eco--right--nav">
                         <ul>
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
+                        <li><a onClick={()=>this.props.history.push('/privacypolicy')}>Privacy Policy</a></li>
+                            <li><a onClick={()=>this.props.history.push('/termcondition')}>Terms & Conditions</a></li>
                         </ul>
                     </nav>
                 </div>
